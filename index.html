@@ -22,7 +22,7 @@
       text-align: center;
     }
     .game-container {
-      margin: 30px 0;
+      margin: 30px 0 10px 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -37,12 +37,28 @@
       box-shadow: 0 2px 8px rgba(44,62,80,0.09);
       background: #000;
     }
+    .backup-link {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+    }
+    .backup-link a {
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .backup-link a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <h1>🎮 ¡Juega Pac-Man desde mi GitHub!</h1>
   <div class="game-container">
     <iframe src="https://scratch.mit.edu/projects/11270302/embed" allowtransparency="true" width="485" height="402" allowfullscreen></iframe>
+  </div>
+  <div class="backup-link">
+    <a href="https://scratch.mit.edu/projects/11270302" target="_blank">Si no ves el juego, haz clic aquí para jugar Pac-Man 🎮</a>
   </div>
 </body>
 </html>
